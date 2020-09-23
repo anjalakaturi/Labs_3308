@@ -1,0 +1,988 @@
+Sep 23 00:24:37 Anjalas-MacBook-Pro AddressBookSourceSync[10906]: *** Break on _NSLockError() to debug.
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10910]: 2020-09-23 00:24:40.125 GoogleSoftwareUpdateAgent[10910/0x7fff75099000] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:snapshot:error:] Starting update check.
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.225 GoogleSoftwareUpdateAgent[10914/0x700000117000] [lvl=2] -[KSAgentXPCManager enqueueInvocationForArgs:error:] Creating new invocation with name: 7A667A46-22C5-416E-B520-95F5D1AA0D0A for handle: 7A667A46-22C5-416E-B520-95F5D1AA0D0A
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.225 GoogleSoftwareUpdateAgent[10914/0x700000117000] [lvl=2] -[KSAgentXPCHandleTracker startUpdateForManager:error:] Starting invocation for handles: 7A667A46-22C5-416E-B520-95F5D1AA0D0A
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.226 GoogleSoftwareUpdateAgent[10914/0x700000117000] [lvl=2] -[KSAgentXPCManager scheduleCompletionCallback:forHandle:error:] Scheduling completion callback for handle 7A667A46-22C5-416E-B520-95F5D1AA0D0A on current invocation (7A667A46-22C5-416E-B520-95F5D1AA0D0A).
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.310 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=3] -[KSUpdateEngineXPCShim acquireEngineLockBeforeTimeout:xpcError:] Update engine shim (<KSUpdateEngineXPCShim: 0x7f81d1d57440> to com.google.Keystone.Daemon.UpdateEngineXPC) lock request never completed, tearing down.
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.311 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(PrivateMethods) getLockedSystemEngineWithError:] Keystone Agent did not find a working Daemon responding to com.google.Keystone.Daemon.UpdateEngineXPC.
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.328 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] +[KSKeystoneTicketRepair updateKeystoneTicketInTicketStore:version:bundlePath:error:] KSKeystoneTicketRepair does not need to update the Keystone ticket.
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.329 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A checking for self update with Engine: <KSUpdateEngine:0x7f81d1d5c630
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.329 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.331 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:0x7f81d1d5c630
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.767 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSUpdateEngine updateProductID:withError:] KSUpdateEngine updating product ID: "com.google.Keystone"
+Sep 23 00:24:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:24:40.825 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/Anjala/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdate' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.597 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anjala/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 10921
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.859 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.879 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished update engine invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A: errors=0
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.880 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates in invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A for '"com.google.Keystone"' using engine <KSUpdateEngine:0x7f81d1d5c630
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.880 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A finished self update check.
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.881 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A checking for updates for "All Products" using engine <KSUpdateEngine:0x7f81d1d5c630
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.882 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:withError:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Sep 23 00:29:07 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:29:07.909 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Sep 23 00:33:39 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:33:39.705 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anjala/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 10927
+Sep 23 00:33:39 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:33:39.577 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Sep 23 00:33:39 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:33:39.595 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished update engine invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A: errors=0
+Sep 23 00:33:39 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:33:39.596 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates in invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A for '"All Products"' using engine <KSUpdateEngine:0x7f81d1d5c630
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 00:33:39 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:33:39.767 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSAgentApp(PrivateMethods) uploadStats:forInvocation:error:] Successfully uploaded stats <KSStatsCollection:0x7f81d1d4b840 path="/Users/Anjala/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+Sep 23 00:33:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10914]: 2020-09-23 00:33:40.777 GoogleSoftwareUpdateAgent[10914/0x7000003a6000] [lvl=2] -[KSAgentXPCHandleTracker startUpdateForManager:error:]_block_invoke Completing invocation for handles: 7A667A46-22C5-416E-B520-95F5D1AA0D0A
+Sep 23 00:33:40 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[10910]: 2020-09-23 00:33:40.878 GoogleSoftwareUpdateAgent[10910/0x7fff75099000] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:snapshot:error:] Remote invocation 7A667A46-22C5-416E-B520-95F5D1AA0D0A completed successfully.
+Sep 23 00:53:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 00:53:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 00:53:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 00:53:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 00:53:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 00:53:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 00:57:55 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 00:57:55 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 00:57:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 00:57:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 00:57:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 00:57:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 00:57:56 Anjalas-MacBook-Pro AddressBookSourceSync[10944]: [CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/] Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={NSUnderlyingError=0x7fe7707757b0 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "The network connection was lost." UserInfo={NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorCodeKey=-4, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The network connection was lost.}}, NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-4, NSLocalizedDescription=The network connection was lost.}
+Sep 23 01:02:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:02:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:02:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:02:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:02:35 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:02:35 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:02:44 Anjalas-MacBook-Pro AddressBookSourceSync[10963]: *** Break on _NSLockError() to debug.
+Sep 23 01:07:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:07:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:07:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:07:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:07:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:07:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:11:55 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:11:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:11:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:11:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:11:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:11:55 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:12:04 Anjalas-MacBook-Pro AddressBookSourceSync[10985]: *** Break on _NSLockError() to debug.
+Sep 23 01:16:35 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:16:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:16:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:16:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:16:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:16:35 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:21:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:21:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:21:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:21:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:21:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:21:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:21:23 Anjalas-MacBook-Pro AddressBookSourceSync[11017]: *** Break on _NSLockError() to debug.
+Sep 23 01:23:01 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:23:01 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:23:01 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:23:01 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:23:01 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:23:01 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:32:30 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:32:30 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:32:30 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:32:30 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:32:30 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:32:30 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:41:19 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:41:19 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:41:19 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:41:19 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:41:19 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:41:19 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:41:30 Anjalas-MacBook-Pro AddressBookSourceSync[11088]: *** Break on _NSLockError() to debug.
+Sep 23 01:53:22 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:53:22 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 01:53:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:53:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:53:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:53:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:53:33 Anjalas-MacBook-Pro AddressBookSourceSync[11146]: *** Break on _NSLockError() to debug.
+Sep 23 01:58:05 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 01:58:05 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:58:05 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 01:58:05 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:58:05 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 01:58:05 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:02:46 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:02:46 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:02:46 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:02:46 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:02:46 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:02:46 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:02:51 Anjalas-MacBook-Pro AddressBookSourceSync[11165]: *** Break on _NSLockError() to debug.
+Sep 23 02:07:27 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:07:27 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:07:27 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:07:27 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:07:27 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:07:27 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:07:39 Anjalas-MacBook-Pro AddressBookSourceSync[11192]: *** Break on _NSLockError() to debug.
+Sep 23 02:12:08 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:12:08 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:12:08 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:12:08 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:12:08 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:12:08 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:13:22 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:13:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:13:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:13:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:13:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:13:22 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:13:32 Anjalas-MacBook-Pro AddressBookSourceSync[11207]: *** Break on _NSLockError() to debug.
+Sep 23 02:16:56 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:16:56 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:16:56 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:16:56 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:16:56 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:16:56 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:21:37 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:21:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:21:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:21:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:21:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:21:37 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:21:37 Anjalas-MacBook-Pro accountsd[10715]: SecTaskLoadEntitlements failed error=3
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: *** -[NSXPCConnection valueForEntitlement:]: Error getting value for entitlement 'com.apple.private.accounts.allaccounts': Error Domain=NSPOSIXErrorDomain Code=3 "No such process"
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: SecTaskLoadEntitlements failed error=3
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: *** -[NSXPCConnection valueForEntitlement:]: Error getting value for entitlement 'com.apple.accounts.appleaccount.fullaccess': Error Domain=NSPOSIXErrorDomain Code=3 "No such process"
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: SecTaskLoadEntitlements failed error=3
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: *** -[NSXPCConnection valueForEntitlement:]: Error getting value for entitlement 'com.apple.accounts.idms.fullaccess': Error Domain=NSPOSIXErrorDomain Code=3 "No such process"
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: SecTaskLoadEntitlements failed error=3
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: *** -[NSXPCConnection valueForEntitlement:]: Error getting value for entitlement 'com.apple.accounts.appleidauthentication.defaultaccess': Error Domain=NSPOSIXErrorDomain Code=3 "No such process"
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: SecTaskLoadEntitlements failed error=3
+Sep 23 02:21:38 Anjalas-MacBook-Pro accountsd[10715]: *** -[NSXPCConnection valueForEntitlement:]: Error getting value for entitlement 'com.apple.security.personal-information.addressbook': Error Domain=NSPOSIXErrorDomain Code=3 "No such process"
+Sep 23 02:26:17 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:26:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:26:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:26:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:26:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:26:17 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:26:22 Anjalas-MacBook-Pro AddressBookSourceSync[11233]: *** Break on _NSLockError() to debug.
+Sep 23 02:30:57 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:30:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:30:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:30:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:30:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:30:57 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:31:06 Anjalas-MacBook-Pro AddressBookSourceSync[11254]: *** Break on _NSLockError() to debug.
+Sep 23 02:32:10 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:32:10 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:32:10 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:32:10 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:32:10 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:32:10 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:35:44 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:35:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:35:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:35:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:35:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:35:44 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:35:49 Anjalas-MacBook-Pro AddressBookSourceSync[11267]: *** Break on _NSLockError() to debug.
+Sep 23 02:40:24 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:40:24 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:40:24 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:40:24 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:40:24 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:40:24 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:40:34 Anjalas-MacBook-Pro AddressBookSourceSync[11289]: *** Break on _NSLockError() to debug.
+Sep 23 02:45:04 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:45:04 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:45:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:45:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:45:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:45:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:46:17 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:46:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:46:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:46:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:46:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:46:17 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:46:26 Anjalas-MacBook-Pro AddressBookSourceSync[11312]: *** Break on _NSLockError() to debug.
+Sep 23 02:49:51 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:49:51 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:49:51 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:49:51 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:49:51 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:49:51 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:50:01 Anjalas-MacBook-Pro AddressBookSourceSync[11322]: *** Break on _NSLockError() to debug.
+Sep 23 02:54:32 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:54:32 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:54:32 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:54:32 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:54:32 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:54:32 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:59:12 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 02:59:12 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 02:59:12 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:59:12 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 02:59:12 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 02:59:12 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:03:53 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:03:53 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:03:53 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:03:53 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:03:53 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:03:53 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:03:59 Anjalas-MacBook-Pro AddressBookSourceSync[11347]: *** Break on _NSLockError() to debug.
+Sep 23 03:08:34 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:08:34 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:08:34 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:08:34 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:08:34 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:08:34 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:13:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:13:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:13:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:13:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:13:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:13:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:13:25 Anjalas-MacBook-Pro AddressBookSourceSync[11370]: *** Break on _NSLockError() to debug.
+Sep 23 03:16:29 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:16:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:16:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:16:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:16:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:16:29 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:30:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:30:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:30:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:30:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:30:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:30:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:34:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:34:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:34:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:34:55 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:34:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:34:55 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:39:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:39:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:39:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:39:35 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:39:35 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:39:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:39:38 Anjalas-MacBook-Pro AddressBookSourceSync[11424]: [CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7ffb28c25a50 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorCodeKey=60, _kCFStreamErrorDomainKey=1, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=60, NSLocalizedDescription=The request timed out.}
+Sep 23 03:44:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:44:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:44:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:44:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:44:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:44:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:44:25 Anjalas-MacBook-Pro AddressBookSourceSync[11469]: *** Break on _NSLockError() to debug.
+Sep 23 03:48:55 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:48:55 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:48:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:48:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:48:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:48:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:53:35 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:53:35 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:53:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:53:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:53:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:53:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:53:41 Anjalas-MacBook-Pro AddressBookSourceSync[11499]: *** Break on _NSLockError() to debug.
+Sep 23 03:58:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 03:58:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:58:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 03:58:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:58:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 03:58:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 03:58:20 Anjalas-MacBook-Pro mDNSResponder[95]:  25: Could not write data to client PID[55](configd) because of error - aborting connection
+Sep 23 03:58:24 Anjalas-MacBook-Pro AddressBookSourceSync[11516]: *** Break on _NSLockError() to debug.
+Sep 23 04:02:55 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:02:55 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:02:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:02:55 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:02:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:02:55 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:07:35 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:07:35 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:07:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:07:35 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:07:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:07:35 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:07:41 Anjalas-MacBook-Pro AddressBookSourceSync[11538]: *** Break on _NSLockError() to debug.
+Sep 23 04:12:15 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:12:15 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:12:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:12:15 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:12:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:12:15 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:13:28 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:13:28 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:13:28 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:13:28 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:13:28 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:13:28 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:13:28 Anjalas-MacBook-Pro AddressBookSourceSync[11551]: *** Break on _NSLockError() to debug.
+Sep 23 04:17:02 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:17:02 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:17:02 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:17:02 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:17:02 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:17:02 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:17:07 Anjalas-MacBook-Pro AddressBookSourceSync[11565]: *** Break on _NSLockError() to debug.
+Sep 23 04:21:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:21:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:21:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:21:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:21:42 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:21:42 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:21:52 Anjalas-MacBook-Pro AddressBookSourceSync[11586]: *** Break on _NSLockError() to debug.
+Sep 23 04:26:18 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:26:18 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:26:18 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:26:18 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:26:18 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:26:18 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:40:04 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:40:04 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:40:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:40:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:40:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:40:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:40:05 Anjalas-MacBook-Pro WirelessRadioManagerd[11637]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 04:40:14 Anjalas-MacBook-Pro AddressBookSourceSync[11636]: *** Break on _NSLockError() to debug.
+Sep 23 04:44:47 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:44:47 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:44:47 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:44:47 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:44:47 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:44:47 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:49:27 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:49:27 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:49:27 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:49:27 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:49:27 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:49:27 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:49:37 Anjalas-MacBook-Pro AddressBookSourceSync[11653]: *** Break on _NSLockError() to debug.
+Sep 23 04:54:07 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:54:07 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:54:07 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:54:07 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:54:07 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:54:07 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:55:20 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:55:20 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:55:20 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:55:20 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:55:20 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 04:55:20 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:55:29 Anjalas-MacBook-Pro AddressBookSourceSync[11677]: *** Break on _NSLockError() to debug.
+Sep 23 04:58:54 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 04:58:54 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:58:54 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 04:58:54 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:58:54 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 04:58:54 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:03:37 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:03:37 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:03:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:03:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:03:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:03:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:08:17 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:08:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:08:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:08:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:08:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:08:17 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:08:22 Anjalas-MacBook-Pro AddressBookSourceSync[11699]: [CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7fbb70404b60 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorCodeKey=60, _kCFStreamErrorDomainKey=1, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=60, NSLocalizedDescription=The request timed out.}
+Sep 23 05:12:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:12:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:12:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:12:57 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:12:57 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:12:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:13:07 Anjalas-MacBook-Pro AddressBookSourceSync[11731]: *** Break on _NSLockError() to debug.
+Sep 23 05:17:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:17:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:17:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:17:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:17:37 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:17:37 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:22:17 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:22:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:22:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:22:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:22:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:22:17 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:22:26 Anjalas-MacBook-Pro AddressBookSourceSync[11755]: *** Break on _NSLockError() to debug.
+Sep 23 05:26:57 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:26:57 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:26:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:26:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:26:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:26:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:31:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:31:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:31:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:31:37 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:31:37 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:31:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:31:46 Anjalas-MacBook-Pro AddressBookSourceSync[11777]: *** Break on _NSLockError() to debug.
+Sep 23 05:36:17 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:36:17 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:36:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:36:17 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:36:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:36:17 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:40:57 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:40:57 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:40:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:40:57 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:40:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:40:57 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:41:06 Anjalas-MacBook-Pro AddressBookSourceSync[11800]: *** Break on _NSLockError() to debug.
+Sep 23 05:45:37 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:45:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:45:37 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:45:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:45:37 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:45:37 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:46:29 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:46:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:46:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:46:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:46:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:46:29 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:46:38 Anjalas-MacBook-Pro AddressBookSourceSync[11823]: *** Break on _NSLockError() to debug.
+Sep 23 05:59:28 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 05:59:28 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 05:59:28 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:59:28 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 05:59:28 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:59:28 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 05:59:31 Anjalas-MacBook-Pro AddressBookSourceSync[11855]: *** Break on _NSLockError() to debug.
+Sep 23 06:04:07 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:04:07 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:04:07 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:04:07 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:04:07 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:04:07 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:04:17 Anjalas-MacBook-Pro AddressBookSourceSync[11879]: *** Break on _NSLockError() to debug.
+Sep 23 06:08:47 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:08:47 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:08:47 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:08:47 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:08:47 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:08:47 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:13:27 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:13:27 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:13:27 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:13:27 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:13:27 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:13:27 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:13:36 Anjalas-MacBook-Pro AddressBookSourceSync[11895]: *** Break on _NSLockError() to debug.
+Sep 23 06:15:04 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:15:04 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:15:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:15:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:15:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:15:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:27:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:27:22 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:27:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:27:22 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:27:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:27:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:27:31 Anjalas-MacBook-Pro AddressBookSourceSync[11941]: *** Break on _NSLockError() to debug.
+Sep 23 06:27:31 Anjalas-MacBook-Pro com.apple.iCloudHelper[10716]: AOSKit ERROR: XPC SERVER (com.apple.AddressBookSourceSync/9.0): Failed to copy client info, err -67065 (p=11941)
+Sep 23 06:32:02 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:32:02 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:32:02 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:32:02 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:32:02 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:32:02 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:36:42 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:36:42 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:36:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:36:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:36:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:36:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:36:51 Anjalas-MacBook-Pro AddressBookSourceSync[11966]: *** Break on _NSLockError() to debug.
+Sep 23 06:41:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:41:22 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:41:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:41:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:41:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:41:22 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:46:02 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:46:02 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:46:02 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:46:02 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:46:02 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:46:02 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:46:11 Anjalas-MacBook-Pro AddressBookSourceSync[11988]: *** Break on _NSLockError() to debug.
+Sep 23 06:50:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:50:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:50:42 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:50:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:50:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:50:42 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 06:55:22 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 06:55:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:55:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 06:55:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:55:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 06:55:22 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:00:04 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:00:04 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:00:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:00:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:00:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:00:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:00:09 Anjalas-MacBook-Pro AddressBookSourceSync[12022]: *** Break on _NSLockError() to debug.
+Sep 23 07:04:45 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:04:45 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:04:45 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:04:45 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:04:45 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:04:45 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:04:55 Anjalas-MacBook-Pro AddressBookSourceSync[12043]: *** Break on _NSLockError() to debug.
+Sep 23 07:09:25 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:09:25 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:09:25 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:09:25 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:09:25 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:09:25 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:09:26 Anjalas-MacBook-Pro WirelessRadioManagerd[12056]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 07:09:36 Anjalas-MacBook-Pro AddressBookSourceSync[12054]: *** Break on _NSLockError() to debug.
+Sep 23 07:14:08 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:14:08 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:14:08 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:14:08 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:14:08 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:14:08 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:14:19 Anjalas-MacBook-Pro AddressBookSourceSync[12068]: *** Break on _NSLockError() to debug.
+Sep 23 07:15:24 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:15:24 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:15:24 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:15:24 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:15:24 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:15:24 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:20:10 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:20:10 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:20:10 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:20:10 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:20:10 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:20:10 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:20:11 Anjalas-MacBook-Pro WirelessRadioManagerd[12101]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 07:20:20 Anjalas-MacBook-Pro AddressBookSourceSync[12098]: *** Break on _NSLockError() to debug.
+Sep 23 07:24:50 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:24:50 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:24:50 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:24:50 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:24:50 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:24:50 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:29:30 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:29:30 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:29:30 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:29:30 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:29:30 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:29:30 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:29:40 Anjalas-MacBook-Pro AddressBookSourceSync[12118]: *** Break on _NSLockError() to debug.
+Sep 23 07:34:10 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:34:10 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:34:10 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:34:10 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:34:10 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:34:10 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:38:49 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:38:49 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:38:49 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:38:49 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:38:49 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:38:49 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:38:59 Anjalas-MacBook-Pro AddressBookSourceSync[12142]: *** Break on _NSLockError() to debug.
+Sep 23 07:43:29 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:43:29 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:43:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:43:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:43:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:43:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:44:42 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:44:42 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:44:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:44:42 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:44:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:44:42 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:44:52 Anjalas-MacBook-Pro AddressBookSourceSync[12165]: *** Break on _NSLockError() to debug.
+Sep 23 07:48:16 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:48:16 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:48:16 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:48:16 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:48:16 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:48:16 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:49:29 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:49:29 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:49:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:49:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:49:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:49:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:49:38 Anjalas-MacBook-Pro AddressBookSourceSync[12197]: *** Break on _NSLockError() to debug.
+Sep 23 07:53:04 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:53:04 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 07:53:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:53:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:53:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:53:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:53:13 Anjalas-MacBook-Pro AddressBookSourceSync[12209]: *** Break on _NSLockError() to debug.
+Sep 23 07:57:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:57:44 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 07:57:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 07:57:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:57:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 07:57:44 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:02:25 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:02:25 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:02:25 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:02:25 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:02:25 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:02:25 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:07:07 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:07:07 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:07:07 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:07:07 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:07:07 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:07:07 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:07:13 Anjalas-MacBook-Pro AddressBookSourceSync[12226]: *** Break on _NSLockError() to debug.
+Sep 23 08:10:44 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:10:44 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:10:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:10:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:10:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:10:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:10:54 Anjalas-MacBook-Pro AddressBookSourceSync[12248]: *** Break on _NSLockError() to debug.
+Sep 23 08:24:29 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:24:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:24:29 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:24:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:24:29 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:24:29 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:24:40 Anjalas-MacBook-Pro AddressBookSourceSync[12273]: *** Break on _NSLockError() to debug.
+Sep 23 08:24:40 Anjalas-MacBook-Pro com.apple.iCloudHelper[10716]: AOSKit ERROR: XPC SERVER (com.apple.AddressBookSourceSync/9.0): Failed to copy client info, err -67065 (p=12273)
+Sep 23 08:25:44 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:25:44 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:25:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:25:44 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:25:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:25:44 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:29:19 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:29:19 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:29:19 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:29:19 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:29:19 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:29:19 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:29:29 Anjalas-MacBook-Pro AddressBookSourceSync[12307]: *** Break on _NSLockError() to debug.
+Sep 23 08:33:59 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:33:59 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:33:59 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:33:59 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:33:59 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:33:59 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:38:40 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:38:40 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:38:40 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:38:40 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:38:40 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:38:40 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:38:51 Anjalas-MacBook-Pro AddressBookSourceSync[12324]: *** Break on _NSLockError() to debug.
+Sep 23 08:43:21 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:43:21 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:43:21 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:43:21 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:43:21 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:43:21 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:48:01 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:48:01 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:48:01 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:48:01 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:48:01 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:48:01 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:48:02 Anjalas-MacBook-Pro tccd[10686]: SecTaskLoadEntitlements failed error=3
+Sep 23 08:52:41 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:52:41 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:52:41 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:52:41 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:52:41 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:52:41 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:52:48 Anjalas-MacBook-Pro AddressBookSourceSync[12357]: *** Break on _NSLockError() to debug.
+Sep 23 08:57:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:57:22 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 08:57:22 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 08:57:22 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 08:57:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 08:57:22 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 09:00:04 Anjalas-MacBook-Pro kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::processCriticalError Received Critical Error: 0x00000020
+Sep 23 09:00:04 Anjalas-MacBook-Pro kernel[0]: [HID] [MT] [Error] AppleMultitouchDevice::decodeDeviceProperty ***** Multitouch Status: value=0x00000200 *****
+Sep 23 09:00:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 09:00:04 Anjalas-MacBook-Pro blued[89]: [BluetoothHIDDeviceController]ERROR: Could not find the disconnected object
+Sep 23 09:00:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 09:00:04 Anjalas-MacBook-Pro blued[89]: Error: [AppleBluetoothHIDDeviceGen2][_setEventService:]Couldn't copy BD_ADDR
+Sep 23 09:00:14 Anjalas-MacBook-Pro AddressBookSourceSync[12383]: *** Break on _NSLockError() to debug.
+Sep 23 09:00:19 Anjalas-MacBook-Pro secd[10691]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 09:00:19 Anjalas-MacBook-Pro secd[10691]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 09:00:19 Anjalas-MacBook-Pro secd[10691]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 09:00:19 Anjalas-MacBook-Pro secd[10691]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 09:00:20 Anjalas-MacBook-Pro secd[10691]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Sep 23 09:00:38 Anjalas-MacBook-Pro WirelessRadioManagerd[12409]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 09:00:44 Anjalas-MacBook-Pro diagnosticd[12411]: ostraceutil returned error 18176 while linking caches
+Sep 23 09:00:54 Anjalas-MacBook-Pro kernel[0]: error 0xe00002db opening polled file
+Sep 23 09:04:46 Anjalas-MacBook-Pro WirelessRadioManagerd[12422]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 09:04:54 Anjalas-MacBook-Pro diagnosticd[12435]: ostraceutil returned error 18176 while linking caches
+Sep 23 09:04:54 Anjalas-MacBook-Pro AddressBookSourceSync[12410]: *** Break on _NSLockError() to debug.
+Sep 23 09:04:54 Anjalas-MacBook-Pro secd[12437]:  secTaskDiagnoseEntitlements MISSING keychain entitlements: retrieve-entitlements error Error Domain=NSPOSIXErrorDomain Code=3 "No such process"
+Sep 23 09:04:54 Anjalas-MacBook-Pro secd[12437]:  securityd_xpc_dictionary_handler No such file or directory[12410] copy_matching Error Domain=NSOSStatusErrorDomain Code=-34018 "client has neither application-identifier nor keychain-access-groups entitlements" UserInfo={NSDescription=client has neither application-identifier nor keychain-access-groups entitlements}
+Sep 23 09:09:20 Anjalas-MacBook-Pro WirelessRadioManagerd[12455]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 09:09:22 Anjalas-MacBook-Pro diagnosticd[12457]: ostraceutil returned error 18176 while linking caches
+Sep 23 09:13:48 Anjalas-MacBook-Pro secd[12437]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 09:13:48 Anjalas-MacBook-Pro secd[12437]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12461] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 09:18:21 Anjalas-MacBook-Pro WirelessRadioManagerd[12472]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 09:22:55 Anjalas-MacBook-Pro secd[12483]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 09:22:55 Anjalas-MacBook-Pro secd[12483]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12485] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 09:22:56 Anjalas-MacBook-Pro AddressBookSourceSync[12438]: [CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/] Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7f86d35e6520 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+Sep 23 09:27:23 Anjalas-MacBook-Pro WirelessRadioManagerd[12494]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 09:27:25 Anjalas-MacBook-Pro diagnosticd[12496]: ostraceutil returned error 18176 while linking caches
+Sep 23 09:36:27 Anjalas-MacBook-Pro WirelessRadioManagerd[12516]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 09:38:09 Anjalas-MacBook-Pro diagnosticd[12521]: ostraceutil returned error 18176 while linking caches
+Sep 23 09:38:19 Anjalas-MacBook-Pro secd[12527]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 09:38:19 Anjalas-MacBook-Pro secd[12527]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12528] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 09:38:35 Anjalas-MacBook-Pro AddressBookSourceSync[12487]: [CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/] Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7f94206b4350 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+Sep 23 09:59:11 Anjalas-MacBook-Pro AddressBookSourceSync[12531]: [CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller principalPropertiesAtURL:https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/] Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7ff62bd6a070 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, NSErrorFailingURLKey=https://anjeldkat19%40gmail.com@www.googleapis.com/carddav/v1/principals/anjeldkat19%40gmail.com/, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+Sep 23 10:21:34 Anjalas-MacBook-Pro loginwindow[98]: ERROR | -[LWBuiltInScreenLockAuthLion askForPasswordBuiltIn:] | Attempted to add an observer when already observing
+Sep 23 10:21:38 Anjalas-MacBook-Pro secd[12527]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Sep 23 10:21:38 Anjalas-MacBook-Pro com.apple.AddressBook.InternetAccountsBridge[12560]: XPC Error while checking if iCDP is enabled for DSID 1347991624: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.cdp.daemon was invalidated." UserInfo={NSDebugDescription=The connection to service named com.apple.cdp.daemon was invalidated.}
+Sep 23 10:21:39 Anjalas-MacBook-Pro com.apple.AddressBook.InternetAccountsBridge[12560]: XPC Error while checking if iCDP is enabled for DSID 1347991624: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.cdp.daemon was invalidated." UserInfo={NSDebugDescription=The connection to service named com.apple.cdp.daemon was invalidated.}
+Sep 23 10:21:41 Anjalas-MacBook-Pro WirelessRadioManagerd[12564]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:21:42 Anjalas-MacBook-Pro secd[12527]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 10:21:42 Anjalas-MacBook-Pro secd[12527]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:21:43 Anjalas-MacBook-Pro secd[12527]:  securityd_xpc_dictionary_handler cdpd[12567] View Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account}
+Sep 23 10:21:43 Anjalas-MacBook-Pro cdpd[12567]: Calling SOSCCView returned status 0 for view Passwords - (error: Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account})
+Sep 23 10:21:43 Anjalas-MacBook-Pro cdpd[12567]: Calling SOSCCView for view Passwords reported device is NOT A MEMBER - (error: Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account})
+Sep 23 10:21:43 Anjalas-MacBook-Pro secd[12527]:  securityd_xpc_dictionary_handler cdpd[12567] View Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account}
+Sep 23 10:21:43 Anjalas-MacBook-Pro cdpd[12567]: Calling SOSCCView returned status 0 for view Passwords - (error: Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account})
+Sep 23 10:21:43 Anjalas-MacBook-Pro cdpd[12567]: Calling SOSCCView for view Passwords reported device is NOT A MEMBER - (error: Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account})
+Sep 23 10:21:44 Anjalas-MacBook-Pro com.apple.AddressBook.InternetAccountsBridge[12560]: XPC Error while checking if iCDP is enabled for DSID 1347991624: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.cdp.daemon was invalidated." UserInfo={NSDebugDescription=The connection to service named com.apple.cdp.daemon was invalidated.}
+Sep 23 10:21:48 Anjalas-MacBook-Pro com.apple.dock.extra[384]: [Accounts] Failed to update account with identifier 3F085321-51B5-4D76-94CC-A5DD2B46FC26, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)"
+Sep 23 10:21:48 Anjalas-MacBook-Pro sharingd[350]: [Accounts] Failed to update account with identifier 3F085321-51B5-4D76-94CC-A5DD2B46FC26, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)"
+Sep 23 10:21:48 Anjalas-MacBook-Pro DataDetectorsDynamicData[458]: [Accounts] Failed to update account with identifier 3F085321-51B5-4D76-94CC-A5DD2B46FC26, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)"
+Sep 23 10:21:48 Anjalas-MacBook-Pro Finder[341]: [Accounts] Failed to update account with identifier 3F085321-51B5-4D76-94CC-A5DD2B46FC26, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)"
+Sep 23 10:21:48 Anjalas-MacBook-Pro CalNCService[14370]: [Accounts] Failed to update account with identifier 3F085321-51B5-4D76-94CC-A5DD2B46FC26, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)"
+Sep 23 10:21:59 Anjalas-MacBook-Pro WirelessRadioManagerd[12587]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:22:15 Anjalas-MacBook-Pro diagnosticd[12601]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:22:22 Anjalas-MacBook-Pro WirelessRadioManagerd[12612]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:22:29 Anjalas-MacBook-Pro secd[12603]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:22:29 Anjalas-MacBook-Pro secd[12603]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Sep 23 10:22:29 Anjalas-MacBook-Pro secd[12603]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12617] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:24:46 Anjalas-MacBook-Pro WirelessRadioManagerd[12637]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:25:04 Anjalas-MacBook-Pro WirelessRadioManagerd[12648]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:25:09 Anjalas-MacBook-Pro diagnosticd[12652]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:25:19 Anjalas-MacBook-Pro WirelessRadioManagerd[12663]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:25:25 Anjalas-MacBook-Pro secd[12655]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:25:25 Anjalas-MacBook-Pro secd[12655]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12674] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:25:29 Anjalas-MacBook-Pro diagnosticd[12680]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:25:42 Anjalas-MacBook-Pro WirelessRadioManagerd[12688]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:25:45 Anjalas-MacBook-Pro secd[12692]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:25:45 Anjalas-MacBook-Pro secd[12692]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12693] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:25:56 Anjalas-MacBook-Pro WirelessRadioManagerd[12698]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:25:57 Anjalas-MacBook-Pro diagnosticd[12704]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:26:08 Anjalas-MacBook-Pro WirelessRadioManagerd[12711]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:26:19 Anjalas-MacBook-Pro secd[12720]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:26:19 Anjalas-MacBook-Pro diagnosticd[12721]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:26:19 Anjalas-MacBook-Pro secd[12720]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12723] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:26:19 Anjalas-MacBook-Pro secd[12720]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12723] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:29:43 Anjalas-MacBook-Pro diagnosticd[12749]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:29:44 Anjalas-MacBook-Pro WirelessRadioManagerd[12751]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:29:57 Anjalas-MacBook-Pro WirelessRadioManagerd[12765]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:30:03 Anjalas-MacBook-Pro diagnosticd[12771]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:30:12 Anjalas-MacBook-Pro WirelessRadioManagerd[12781]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:30:24 Anjalas-MacBook-Pro WirelessRadioManagerd[12796]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:30:37 Anjalas-MacBook-Pro secd[12799]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:30:37 Anjalas-MacBook-Pro diagnosticd[12801]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:30:37 Anjalas-MacBook-Pro secd[12799]:  securityd_xpc_dictionary_handler IDSKeychainSynci[12803] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:31:33 Anjalas-MacBook-Pro WirelessRadioManagerd[12814]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:31:50 Anjalas-MacBook-Pro WirelessRadioManagerd[12830]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:31:52 Anjalas-MacBook-Pro diagnosticd[12834]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:32:24 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:25 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:26 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:26 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:26 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:26 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:26 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:27 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:27 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:27 Anjalas-MacBook-Pro quicklookd[12874]: Error returned from iconservicesagent: (null)
+Sep 23 10:32:30 Anjalas-MacBook-Pro QuickLookSatellite[12875]: In -[NSApplication(NSQuietSafeQuit) _updateCanQuitQuietlyAndSafely], _LSSetApplicationInformationItem(NSCanQuitQuietlyAndSafely) returned error -50
+Sep 23 10:34:05 Anjalas-MacBook-Pro WirelessRadioManagerd[12891]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:34:29 Anjalas-MacBook-Pro WirelessRadioManagerd[12908]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:35:04 Anjalas-MacBook-Pro WirelessRadioManagerd[12919]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:35:16 Anjalas-MacBook-Pro diagnosticd[12926]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:36:01 Anjalas-MacBook-Pro mdworker[12877]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:01 Anjalas-MacBook-Pro mdworker[12898]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:01 Anjalas-MacBook-Pro mdworker[12922]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:01 Anjalas-MacBook-Pro mdworker[12859]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:01 Anjalas-MacBook-Pro mdworker[12897]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:01 Anjalas-MacBook-Pro mdworker[12858]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:02 Anjalas-MacBook-Pro mdworker[12857]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:02 Anjalas-MacBook-Pro mdworker[12426]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:02 Anjalas-MacBook-Pro mdworker[12861]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:02 Anjalas-MacBook-Pro mdworker[12816]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:02 Anjalas-MacBook-Pro mdworker[12808]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:36:02 Anjalas-MacBook-Pro mdworker[10790]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Sep 23 10:37:13 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:13 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:13 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:18 Anjalas-MacBook-Pro QuickLookSatellite[13039]: In -[NSApplication(NSQuietSafeQuit) _updateCanQuitQuietlyAndSafely], _LSSetApplicationInformationItem(NSCanQuitQuietlyAndSafely) returned error -50
+Sep 23 10:37:18 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:18 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:19 Anjalas-MacBook-Pro quicklookd[13038]: Error returned from iconservicesagent: (null)
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13050]: 2020-09-23 10:37:26.137 GoogleSoftwareUpdateAgent[13050/0x7fff75099000] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:snapshot:error:] Starting update check.
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.229 GoogleSoftwareUpdateAgent[13054/0x70000019a000] [lvl=2] -[KSAgentXPCManager enqueueInvocationForArgs:error:] Creating new invocation with name: 92D050F6-E98F-4607-8022-456D3A98A6AA for handle: 92D050F6-E98F-4607-8022-456D3A98A6AA
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.229 GoogleSoftwareUpdateAgent[13054/0x70000019a000] [lvl=2] -[KSAgentXPCHandleTracker startUpdateForManager:error:] Starting invocation for handles: 92D050F6-E98F-4607-8022-456D3A98A6AA
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.231 GoogleSoftwareUpdateAgent[13054/0x70000019a000] [lvl=2] -[KSAgentXPCManager scheduleCompletionCallback:forHandle:error:] Scheduling completion callback for handle 92D050F6-E98F-4607-8022-456D3A98A6AA on current invocation (92D050F6-E98F-4607-8022-456D3A98A6AA).
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.276 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=3] -[KSUpdateEngineXPCShim acquireEngineLockBeforeTimeout:xpcError:] Update engine shim (<KSUpdateEngineXPCShim: 0x7ff5e2e3fc10> to com.google.Keystone.Daemon.UpdateEngineXPC) lock request never completed, tearing down.
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.276 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(PrivateMethods) getLockedSystemEngineWithError:] Keystone Agent did not find a working Daemon responding to com.google.Keystone.Daemon.UpdateEngineXPC.
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.280 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] +[KSKeystoneTicketRepair updateKeystoneTicketInTicketStore:version:bundlePath:error:] KSKeystoneTicketRepair does not need to update the Keystone ticket.
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.280 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Invocation 92D050F6-E98F-4607-8022-456D3A98A6AA checking for self update with Engine: <KSUpdateEngine:0x7ff5e2e46190
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.280 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.281 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Invocation 92D050F6-E98F-4607-8022-456D3A98A6AA checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:0x7ff5e2e46190
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.909 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSUpdateEngine updateProductID:withError:] KSUpdateEngine updating product ID: "com.google.Keystone"
+Sep 23 10:37:26 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:26.985 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/Anjala/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdate' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.222 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anjala/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 13061
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.899 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.921 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished update engine invocation 92D050F6-E98F-4607-8022-456D3A98A6AA: errors=0
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.921 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates in invocation 92D050F6-E98F-4607-8022-456D3A98A6AA for '"com.google.Keystone"' using engine <KSUpdateEngine:0x7ff5e2e46190
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.922 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Invocation 92D050F6-E98F-4607-8022-456D3A98A6AA finished self update check.
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.922 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Invocation 92D050F6-E98F-4607-8022-456D3A98A6AA checking for updates for "All Products" using engine <KSUpdateEngine:0x7ff5e2e46190
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.923 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:withError:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Sep 23 10:37:27 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:27.947 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Sep 23 10:37:34 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:34.336 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anjala/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 13065
+Sep 23 10:37:34 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:34.851 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Sep 23 10:37:34 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:34.858 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished update engine invocation 92D050F6-E98F-4607-8022-456D3A98A6AA: errors=0
+Sep 23 10:37:34 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:34.859 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates in invocation 92D050F6-E98F-4607-8022-456D3A98A6AA for '"All Products"' using engine <KSUpdateEngine:0x7ff5e2e46190
+			errors=0 currentActionErrors=0
+		errors=0
+Sep 23 10:37:35 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:35.394 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSAgentApp(PrivateMethods) uploadStats:forInvocation:error:] Successfully uploaded stats <KSStatsCollection:0x7ff5e2e31410 path="/Users/Anjala/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+Sep 23 10:37:36 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13054]: 2020-09-23 10:37:36.436 GoogleSoftwareUpdateAgent[13054/0x7000003a6000] [lvl=2] -[KSAgentXPCHandleTracker startUpdateForManager:error:]_block_invoke Completing invocation for handles: 92D050F6-E98F-4607-8022-456D3A98A6AA
+Sep 23 10:37:36 Anjalas-MacBook-Pro GoogleSoftwareUpdateAgent[13050]: 2020-09-23 10:37:36.499 GoogleSoftwareUpdateAgent[13050/0x7fff75099000] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:snapshot:error:] Remote invocation 92D050F6-E98F-4607-8022-456D3A98A6AA completed successfully.
+Sep 23 10:37:55 Anjalas-MacBook-Pro secd[12912]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:37:56 Anjalas-MacBook-Pro secd[12912]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13080] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:37:56 Anjalas-MacBook-Pro secd[12912]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13080] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:38:26 Anjalas-MacBook-Pro WirelessRadioManagerd[13085]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:38:47 Anjalas-MacBook-Pro diagnosticd[13100]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:38:52 Anjalas-MacBook-Pro WirelessRadioManagerd[13104]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:39:17 Anjalas-MacBook-Pro diagnosticd[13116]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:39:57 Anjalas-MacBook-Pro secd[13109]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:39:57 Anjalas-MacBook-Pro secd[13109]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 10:39:57 Anjalas-MacBook-Pro secd[13109]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:39:57 Anjalas-MacBook-Pro secd[13109]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13135] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:39:58 Anjalas-MacBook-Pro secd[13109]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 10:39:58 Anjalas-MacBook-Pro secd[13109]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:39:58 Anjalas-MacBook-Pro secd[13109]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Sep 23 10:40:41 Anjalas-MacBook-Pro WirelessRadioManagerd[13154]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:40:48 Anjalas-MacBook-Pro diagnosticd[13162]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:40:57 Anjalas-MacBook-Pro WirelessRadioManagerd[13173]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:41:11 Anjalas-MacBook-Pro WirelessRadioManagerd[13184]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:41:18 Anjalas-MacBook-Pro diagnosticd[13192]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:41:19 Anjalas-MacBook-Pro secd[13181]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:41:19 Anjalas-MacBook-Pro secd[13181]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13194] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:41:19 Anjalas-MacBook-Pro secd[13181]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13194] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:42:43 Anjalas-MacBook-Pro WirelessRadioManagerd[13245]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:42:54 Anjalas-MacBook-Pro diagnosticd[13250]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:44:12 Anjalas-MacBook-Pro secd[13253]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:44:13 Anjalas-MacBook-Pro secd[13253]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 10:44:13 Anjalas-MacBook-Pro secd[13253]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:44:13 Anjalas-MacBook-Pro secd[13253]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13275] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:44:13 Anjalas-MacBook-Pro secd[13253]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 10:44:13 Anjalas-MacBook-Pro secd[13253]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:44:13 Anjalas-MacBook-Pro secd[13253]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Sep 23 10:52:42 Anjalas-MacBook-Pro WirelessRadioManagerd[13330]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:52:52 Anjalas-MacBook-Pro diagnosticd[13335]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:53:03 Anjalas-MacBook-Pro WirelessRadioManagerd[13345]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:53:05 Anjalas-MacBook-Pro diagnosticd[13348]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:53:18 Anjalas-MacBook-Pro WirelessRadioManagerd[13361]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:53:32 Anjalas-MacBook-Pro diagnosticd[13370]: ostraceutil returned error 18176 while linking caches
+Sep 23 10:53:33 Anjalas-MacBook-Pro WirelessRadioManagerd[13376]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 10:53:48 Anjalas-MacBook-Pro secd[13371]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:53:48 Anjalas-MacBook-Pro secd[13371]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13392] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 10:58:10 Anjalas-MacBook-Pro secd[13371]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 10:58:10 Anjalas-MacBook-Pro secd[13371]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 10:58:11 Anjalas-MacBook-Pro secd[13371]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Sep 23 11:08:03 Anjalas-MacBook-Pro WirelessRadioManagerd[13564]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 11:08:21 Anjalas-MacBook-Pro WirelessRadioManagerd[13580]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 11:08:25 Anjalas-MacBook-Pro diagnosticd[13584]: ostraceutil returned error 18176 while linking caches
+Sep 23 11:08:25 Anjalas-MacBook-Pro secd[13583]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 11:08:25 Anjalas-MacBook-Pro secd[13583]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13586] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 11:08:33 Anjalas-MacBook-Pro secd[13583]:  __GetSharedAccount_block_invoke_2 Error finding me for change: (null)
+Sep 23 11:08:33 Anjalas-MacBook-Pro secd[13583]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 11:08:34 Anjalas-MacBook-Pro secd[13583]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Sep 23 11:08:35 Anjalas-MacBook-Pro WirelessRadioManagerd[13597]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 11:08:44 Anjalas-MacBook-Pro secd[13601]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 11:08:44 Anjalas-MacBook-Pro secd[13601]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13602] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 11:08:52 Anjalas-MacBook-Pro WirelessRadioManagerd[13611]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 11:08:54 Anjalas-MacBook-Pro diagnosticd[13617]: ostraceutil returned error 18176 while linking caches
+Sep 23 11:09:06 Anjalas-MacBook-Pro WirelessRadioManagerd[13633]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 11:09:07 Anjalas-MacBook-Pro secd[13632]:  __SOSUpdateKeyInterest_block_invoke_2 Error getting ring interests (null)
+Sep 23 11:09:07 Anjalas-MacBook-Pro secd[13632]:  securityd_xpc_dictionary_handler IDSKeychainSynci[13635] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Sep 23 11:09:25 Anjalas-MacBook-Pro WirelessRadioManagerd[13648]: LogLevels read from preference 0x00030003 COEX_Error|COEX_Warning|IRAT_Error|IRAT_Warning|
+Sep 23 11:09:27 Anjalas-MacBook-Pro diagnosticd[13650]: ostraceutil returned error 18176 while linking caches
