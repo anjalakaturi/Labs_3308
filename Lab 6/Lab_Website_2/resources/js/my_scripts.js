@@ -139,7 +139,7 @@ function loadPlayersPage()
 	var drop = ""
 	for (i = 0; i < players.length; i++)
 	{
-			drop += "<a href='#' class='dropdown-item' onclick='switchPlayers(i)'>players[playerNum].name</a>";
+			drop += "<a href='#' onclick='switchPlayers(" + i + ")' class='dropdown-item'>" + players[i].name + "</a>";
 	}
 	document.getElementById("player_selector").innerText = drop; 
 }
